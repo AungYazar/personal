@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    height: 100vh;
+
+}
+#header{
+    background-color: white;
+}
+.infoRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #f8edeb;
+   
+}
+.menuContainer{
+    text-align: center;
+    padding: 40px 0px;
+}
+.menu{
+    margin-right: 15px;
+    text-decoration: none;
+    width: 50px;
+    color: black;
+    font-size: 18px;
+}
+.menu:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+.infoLeft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color:#cbf3f0;
+    justify-content: center;
+    align-items: center;
+}
+.infoImg{
+    width: 150px;
+    height: auto;
+    border-radius: 200px;
+}
+.menuImg{
+    width: 100%;
+}
+.greeting{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.name{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#aboutMeContainer{
+    background-color: #f8f9fa;
+}
+.center{
+    text-align: center;
+    text-decoration-style: solid;
+    text-decoration-line: overline ;
+    padding: 60px 0px;
+    font-size: 30px;
+    font-style: italic;
+}
+.description{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.box1{
+    width: 300px;
+    position: relative;
+}
+.box2{
+    width: 300px;
+}
+.box3{
+    width: 300px;
+    position: relative;
+}
+.boxTitle{
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.overlayImg{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#f8f9fa;
+}
+.box1:hover .overlay{
+    opacity: 1;
+}
+.box3:hover .overlay{
+    opacity: 1;
+}
+.overlayText {
+    color: black;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.SNS{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #f8f9fa;
+}
+.ip{
+    padding-bottom: 10px;
+}
+.fab{
+    font-size: 30px;
+}
+#skillContainer{
+    background-color: #f8f9fa;
+}
+.iconTitle{
+    margin-bottom: 30px;
+    text-decoration-line: underline;
+    text-decoration-style: solid black;
+    font-size: 25px;
+    text-align: center;
+}
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+.is{
+    font-size: 50px;
+    color: #1d4e89;
+    
+}
+.co2{
+    color: #00b2ca;
+}
+.co3{
+    color: #7dcfb6;
+}
+.co4{
+    color: #fbd1a2;
+}
+.op{
+    opacity: 0.7;
+}
+.fs{
+    font-size: 17px;
+    padding: 10px 0px;
+}
+.carrer{
+    font-size: 13px;
+}
+#portfolioContainer{
+    background-color: #dfe7fd;
+}
+.portfoliobox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.column{
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+    background-color: #dfe7fd;
+    padding: 20px;
+    border-radius: 5px;
+}
+.thumbnail{
+    width: 100%;
+}
+.picDescription{
+    font-size: 25px;
+    padding: 10px 0px;
+
+}
+#contactContainer{
+    background-color: #c8e7ff;
+    padding: 20px 0px;
+}
+.length{
+    width: 300px;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    margin-bottom: 20px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.message{
+    height: 100px;
+}
+.input{
+    text-align: center;
+}
+.submit{
+    width: 70px;
+    border-radius: 6px;
+    border-bottom: none;
+    border-left: none;
+    height: 30px;
+}
+.footer{
+    background-color: #edf2fb;
+    height: 100px;
+    padding: 30px 0px;
+    text-decoration: none;
+    
+
+}
+.testing{
+    width: 200px;
+}
